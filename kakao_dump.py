@@ -48,7 +48,7 @@ while True:
 
         if (idx2 == -1 ):
             author = ""
-            continue   # 2017년 10월 10일 오후 5:03, 이상협과장 UT팀님이 박미령님을 초대했습니다.
+            continue   # ex) 콤마(,)는 있지만 콜론(:)이 없음  이2017년 10월 10일 오후 5:03, 이상협과장 UT팀님이 박미령님을 초대했습니다.
         else: 
             author = remains[0: idx2]
             data = remains[idx2+1:].strip() 
